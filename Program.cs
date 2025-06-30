@@ -26,8 +26,8 @@ namespace ClassExample31
         }
         class Child : Parent
         {
-            public string variable = "hiding";
-            public void Method()
+            public new string variable = "hiding";
+            public new void Method()
             {
                 Console.WriteLine("자식의 메서드");
             }
